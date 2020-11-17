@@ -7,9 +7,9 @@ One of the requirements for [Telegram Authentication](https://core.telegram.org/
 
 ```bash
 
-git clone https://github.com/eos175/factorization.git
-
-python setup.py build install
+python3 -m venv .venv
+. .venv/bin/activate
+pip install https://github.com/eos175/factorization.git
 
 ```
 
