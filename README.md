@@ -7,9 +7,11 @@ One of the requirements for [Telegram Authentication](https://core.telegram.org/
 
 ```bash
 
+sudo apt install python3-venv python3-dev
+
 python3 -m venv .venv
 . .venv/bin/activate
-pip install https://github.com/eos175/factorization.git
+pip install git+https://github.com/eos175/factorization.git
 
 ```
 
